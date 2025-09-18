@@ -1,0 +1,287 @@
+body {
+    background-color: #f2e8dc;
+    color: #3b2f2f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(92, 65, 43, 0.14);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #dcbfa2 0%, #a7774e 100%);
+    color: #2d2420;
+    border-radius: 15px 15px 0 0 !important;
+    border: none;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    background-color: #6b4c2a;
+    color: #ffffff;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(107, 76, 42, 0.28);
+    background-color: #5a3f22;
+}
+
+.btn-info {
+    background-color: #6b4c2a;
+    border-color: #6b4c2a;
+    color: #ffffff;
+}
+
+.btn-info:hover {
+    background-color: #5a3f22;
+    border-color: #5a3f22;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #6b4c2a;
+    border-color: #6b4c2a;
+}
+
+.btn-primary:hover {
+    background-color: #5a3f22;
+    border-color: #5a3f22;
+}
+
+.btn-success {
+    background-color: #6b4c2a;
+    border-color: #6b4c2a;
+}
+
+.btn-success:hover {
+    background-color: #5a3f22;
+    border-color: #5a3f22;
+}
+
+.btn:active,
+.btn.active,
+.btn.show,
+.btn-check:checked + .btn,
+.btn-check:active + .btn {
+    background-color: #dcbfa2 !important;
+    border-color: #dcbfa2 !important;
+    color: #2d2420 !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 191, 162, 0.35) !important;
+    transform: translateY(0) !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btn:focus-visible {
+    outline: 2px solid #dcbfa2;
+    outline-offset: 2px;
+}
+
+.btn-danger {
+    background-color: #8b4513;
+    border-color: #8b4513;
+}
+
+.btn-danger:hover {
+    background-color: #7a3a0f;
+    border-color: #7a3a0f;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #decab7;
+    transition: border-color 0.3s ease;
+    background-color: #ffffff;
+    color: #3b2f2f;
+}
+
+.form-control:focus {
+    border-color: #a96e3d;
+    box-shadow: 0 0 0 0.2rem rgba(169, 110, 61, 0.22);
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+#wallet-section {
+    background: linear-gradient(135deg, #faf1e6 0%, #efddc8 100%);
+}
+
+#app-section {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.badge.bg-primary {
+    background-color: #6b4c2a !important;
+    color: #ffffff;
+}
+
+.text-success {
+    color: #6b4c2a !important;
+}
+
+.club-card {
+    background: #fdf6ed;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(92, 65, 43, 0.12);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.club-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(92, 65, 43, 0.18);
+}
+
+.post-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #a96e3d;
+}
+
+.proposal-card {
+    background: #f7eadc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #e6d2be;
+}
+
+.vote-btn {
+    background: #8c5a35;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.9em;
+}
+
+.vote-btn:hover {
+    background: #7a4c2c;
+    transform: scale(1.05);
+}
+
+.vote-btn:active {
+    background-color: #dcbfa2 !important;
+    color: #2d2420 !important;
+}
+
+.vote-btn:focus { box-shadow: none !important; }
+.vote-btn:focus-visible { outline: 2px solid #dcbfa2; outline-offset: 2px; }
+
+.display-4 {
+    background: linear-gradient(135deg, #b27a4b 0%, #8a5a36 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+.lead {
+    color: #6e5a4b;
+    font-weight: 500;
+}
+.club-card {
+    background: #fdf6ed;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(92, 65, 43, 0.12);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.club-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(92, 65, 43, 0.18);
+    border-color: #a96e3d;
+}
+
+.club-card .badge {
+    font-size: 0.8em;
+}
+
+#club-details {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.info-card {
+    background: #fdf6ed;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(92, 65, 43, 0.12);
+    border: 2px solid #e6d2be;
+}
+
+.alert.alert-info {
+    background: #fdf6ed;
+    border: 2px solid #e6d2be;
+    border-radius: 15px;
+    color: #3b2f2f;
+    box-shadow: 0 2px 4px rgba(92, 65, 43, 0.12);
+}
+
+.alert.alert-warning {
+    background-color: #e6d2be;
+    border: 2px solid #d4c4a8;
+    color: #3b2f2f;
+}
+
+.post-card.mb-3.p-3.border.rounded {
+    border: 2px solid #a96e3d !important;
+    border-radius: 15px !important;
+    box-shadow: 0 2px 4px rgba(92, 65, 43, 0.12);
+}
+
+#propose-book-form { margin-bottom: 8px; }
+
+.title-icon {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #b27a4b 0%, #8a5a36 100%);
+    -webkit-mask-image: url('https://cdn-icons-png.flaticon.com/512/3389/3389062.png');
+    mask-image: url('https://cdn-icons-png.flaticon.com/512/3389/3389062.png');
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    vertical-align: text-top;
+    position: relative;
+    top: 12px;
+    margin-right: 20px;
+}
